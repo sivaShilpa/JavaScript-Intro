@@ -12,9 +12,9 @@ table, th, td, tr {
     border: 1px solid black;
 }
 .even {
-    background-color: lightcoral;
+    background-color:lightblue;
 }
 
 .odd {
-    background-color: cadetblue;
+    background-color: lightpink;
 }
