@@ -14,6 +14,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { SignupComponent } from './signup/signup.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { FormsModule } from "@angular/forms";
+import { MovieTableComponent } from './movie-table/movie-table.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from "@angular/forms";
     HomeComponent,
     AboutUsComponent,
     SignupComponent,
-    HelloWorldComponent
+    HelloWorldComponent,
+    MovieTableComponent
   ],
   imports: [
     BrowserModule,

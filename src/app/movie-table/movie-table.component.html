@@ -1,0 +1,18 @@
+<div class="center">
+    <h1 class="title">Movie Table</h1>
+    
+    <table id="users" class="center">
+        <tr>
+          <th *ngFor = "let column of headers">
+            {{column}}
+          </th>
+        </tr>
+      
+        <tr *ngFor = "let row of rows let even = even; let odd = odd">
+          <td *ngFor = "let column of headers"  [ngClass]="{ even: even, odd: odd }">
+            {{row[column]}}
+          </td>
+        </tr>
+      
+      </table>
+</div>

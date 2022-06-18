@@ -1,0 +1,20 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .title {
+    color:crimson;
+    font-weight: bold;
+    text-align: center;
+}
+table, th, td, tr {
+    border: 1px solid black;
+}
+.even {
+    background-color: lightcoral;
+}
+
+.odd {
+    background-color: cadetblue;
+}
