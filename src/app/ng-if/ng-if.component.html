@@ -1,0 +1,9 @@
+<div class="center">
+    <button (click)="show = !show">{{show ? 'HIDE' : 'SHOW'}}</button>
+ 
+    <br>
+    <br>
+    
+    <div *ngIf="show">Congratulations! You just figured out what happens if the condition is true!</div>
+    <div *ngIf="!show">Congratulations! You just figured out what happens if the condition is false!</div>
+</div>

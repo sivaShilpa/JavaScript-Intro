@@ -1,0 +1,12 @@
+<div class="center">
+    <span>Enter a number between 1 & 5 here: <input type="text" [(ngModel)]="num"></span>
+
+    <div [ngSwitch]="num">
+        <div *ngSwitchCase="1">One</div>
+        <div *ngSwitchCase="2">Two</div>
+        <div *ngSwitchCase="3">Three</div>
+        <div *ngSwitchCase="4">Four</div>
+        <div *ngSwitchCase="5">Five</div>
+        <div *ngSwitchDefault>The number is not within required range.</div>
+    </div>
+</div>

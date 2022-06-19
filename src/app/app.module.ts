@@ -9,19 +9,21 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
-import { HomeComponent } from './home/home.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { NgSwitchComponent } from './ngSwitch/ngSwitch.component';
+
 import { SignupComponent } from './signup/signup.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { FormsModule } from "@angular/forms";
 import { MovieTableComponent } from './movie-table/movie-table.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent,
-    AboutUsComponent,
+    NgSwitchComponent,
+    NgIfComponent,
     SignupComponent,
     HelloWorldComponent,
     MovieTableComponent

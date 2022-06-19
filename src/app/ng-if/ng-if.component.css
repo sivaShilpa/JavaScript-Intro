@@ -1,0 +1,15 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-left: 500px
+}
+button{
+    background-color: indianred;
+    border-color: indianred;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+}
