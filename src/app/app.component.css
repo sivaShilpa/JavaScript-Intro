@@ -11,8 +11,12 @@ button{
     width: 100px;
     height: 50px;
     font-weight: bold;
+    font-size: larger;
     margin-left: 150px;
 }
 h1{
     padding-left: 150px;
+}
+table, th, tr, td {
+    border: 1px solid black;
 }
