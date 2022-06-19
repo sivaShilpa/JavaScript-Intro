@@ -1,6 +1,34 @@
 <app-navbar></app-navbar>
 <br>
 <router-outlet></router-outlet>
+<br>
+<div class="container center" >
+
+    <h1 class="heading"><strong>Services</strong></h1>
+  
+    <button type="button" (click)="getMovies()">Get Movies</button>
+  
+    <div>
+        <table>     
+
+            <th *ngFor = "let header of headers">
+                {{header}}
+            </th>
+                           
+            <tr *ngFor="let movie of movies">
+                <td>{{movie.ID}}</td>
+                <td>{{movie.Title}}</td>
+                <td>{{movie.Director}}</td>
+                <td>{{movie.ReleaseDate}}</td>
+            </tr>
+        
+        </table>
+
+    </div>
+  
+  </div>
+
+
 
 
 
