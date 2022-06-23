@@ -1,6 +1,7 @@
-package com.example.POJO_Controllers.CarsAPIApplicationPackage;
+package com.example.POJO_Controllers.CarsAPIApplicationPackage.Controller;
 
-import com.example.POJO_Controllers.CarsAPIApplicationPackage.CarModel;
+import com.example.POJO_Controllers.CarsAPIApplicationPackage.model.CarModel;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -8,12 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
-
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class CarController {
     @RequestMapping(value = "/cars", method = RequestMethod.GET)
-    public List<CarModel> getCars(CarModel model) {
+    public List<CarModel> getCars(Model model) {
 
         List<CarModel> carsList = new ArrayList<CarModel>();
 

@@ -1,4 +1,4 @@
-package com.example.POJO_Controllers.CarsAPIApplicationPackage;
+package com.example.POJO_Controllers.CarsAPIApplicationPackage.model;
 
 public class CarModel {
 
@@ -18,31 +18,16 @@ public class CarModel {
         return make;
     }
 
-    public void setMake(String make) {
-        this.make = make;
-    }
-
     public String getModel() {
         return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
     }
 
     public int getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public int getMilesPerGallon() {
         return milesPerGallon;
     }
 
-    public void setMilesPerGallon(int milesPerGallon) {
-        this.milesPerGallon = milesPerGallon;
-    }
 }
